@@ -1,0 +1,112 @@
+{
+  "query": "Marcopolo S.A",
+  "maxLines": 50,
+  "credit_count": 2,
+  "confidence_level": 99,
+  "url": "https://www.marcopolo.com.br/",
+  "facebook": "marcopolo SA",
+  "instagram": "@MarcopoloSa",
+  "linkedin": "marcopolo sa",
+  "employees": [
+    {
+      "Linkedin_url": "https://www.linkedin.com/in/felicia-souza-",
+      "name": "Felícia Souza",
+      "email": "xxxxx@marcopolo.com.br",
+      "phone": "(11) 123456",
+      "title": "Project Manager"
+    },
+    {
+      "Linkedin_url": "https://www.linkedin.com/in/pedro-souza-",
+      "name": "Pedro Henrique Martins Souza",
+      "email": "xxxxx@marcopolo.com.br",
+      "phone": "(11) 123456",
+      "title": "Diretor de Conteúdos"
+    },
+    {
+      "Linkedin_url": "https://www.linkedin.com/in/jose-souza-",
+      "name": "José Ramon Silva Souza",
+      "email": "xxxxx@marcopolo.com.br",
+      "phone": "(11) 123456",
+      "title": "Torresco S.A."
+    }
+  ],
+  "emails": [
+    {
+      "id": 1,
+      "name": "Taylor Johnson",
+      "phone": "(11) 123456",
+      "title": "Marketing Data Analyst",
+      "linkedin": "https://www.linkedin.com/in/xxxxxxxx"
+
+    },
+    {
+      "id": 2,
+      "name": "Samantha Parker",
+      "phone": "(11) 123456",
+      "title": "Fashion Publicist",
+      "linkedin": "https://www.linkedin.com/in/xxxxxxxx"
+
+    },
+    {
+      "id": 3,
+      "name": "Joshua Davis",
+      "phone": "(11) 123456",
+      "title": "Financial Advisor",
+      "linkedin": "https://www.linkedin.com/in/xxxxxxxx"
+
+    },
+    {
+      "id": 4,
+      "name": "Emily Anderson",
+      "email": "emily.anderson@marcopolo.com.br",
+      "phone": "(11) 123456",
+      "title": "Graphic Designer",
+      "linkedin": "https://www.linkedin.com/in/xxxxxxxx"
+
+    },
+    {
+      "id": 4,
+      "name": "Emily Anderson",
+      "email": "emily.anderson@marcopolo.com.br",
+      "phone": "(11) 123456",
+      "title": "Graphic Designer",
+      "linkedin": "https://www.linkedin.com/in/xxxxxxxx"
+
+    },
+    {
+      "id": 4,
+      "name": "Emily Anderson",
+      "email": "emily.anderson@marcopolo.com.br",
+      "phone": "(11) 123456",
+      "title": "Graphic Designer",
+      "linkedin": "https://www.linkedin.com/in/xxxxxxxx"
+
+    },
+    {
+      "id": 4,
+      "name": "Emily Anderson",
+      "email": "emily.anderson@marcopolo.com.br",
+      "phone": "(11) 123456",
+      "title": "Graphic Designer",
+      "linkedin": "https://www.linkedin.com/in/xxxxxxxx"
+
+    },
+    {
+      "id": 4,
+      "name": "Emily Anderson",
+      "email": "emily.anderson@marcopolo.com.br",
+      "phone": "(11) 123456",
+      "title": "Graphic Designer",
+      "linkedin": "https://www.linkedin.com/in/xxxxxxxx"
+
+    },
+    {
+      "id": 5,
+      "name": "Brandon Wilson",
+      "email": "brandon.wilson@marcopolo.com.br",
+      "title": "Civil Engineer",
+      "linkedin": "https://www.linkedin.com/in/xxxxxxxx"
+
+    }
+  ]
+}

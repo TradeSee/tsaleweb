@@ -1,0 +1,16 @@
+.containerImage {
+  position: relative;
+  margin-left: 10px;
+}
+
+.firstImage {
+  width: 40px;
+}
+
+.secondImage {
+  width: 40px;
+  position: absolute;
+  left: 8px;
+  top: 8px;
+  z-index: 20;
+}

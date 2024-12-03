@@ -1,0 +1,27 @@
+.ant-collapse-header {
+  display: flex !important;
+  align-items: center !important;
+  padding: 0 16px !important;
+}
+
+.ant-collapse-content-box,
+.ant-collapse-content-active {
+  padding: 0 !important;
+}
+
+.ant-table
+  .ant-table-container
+  .ant-table-content
+  table
+  thead.ant-table-thead
+  .ant-table-cell {
+  font-weight: bold;
+}
+
+.pdfContainer {
+  display: none;
+
+  @media print {
+    display: initial;
+  }
+}

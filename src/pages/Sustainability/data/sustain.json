@@ -1,0 +1,1475 @@
+[
+  {
+    "id": 1,
+    "type": "gov",
+    "question": "Has your company appointed a senior manager representing the environment, social, ethics or human rights?",
+    "isMultipleChoice": false,
+    "answers": [
+      {
+        "label": "Yes",
+        "value": 1
+      },
+      {
+        "label": "No",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "type": "gov",
+    "question": "Does your company have a person responsible for managing social management?",
+    "isMultipleChoice": false,
+    "answers": [
+      {
+        "label": "Yes",
+        "value": 1
+      },
+      {
+        "label": "No",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "type": "gov",
+    "question": "Does your company have a person responsible for managing Compliance/Business Ethics?",
+    "isMultipleChoice": false,
+    "answers": [
+      {
+        "label": "Yes",
+        "value": 1
+      },
+      {
+        "label": "No",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "type": "gov",
+    "question": "Does your company have a person responsible for Environmental Sustainability management?",
+    "isMultipleChoice": false,
+    "answers": [
+      {
+        "label": "Yes",
+        "value": 1
+      },
+      {
+        "label": "No",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "type": "gov",
+    "question": "Does your company have a person responsible for monitoring sustainability risk sustainability risk (e.g. human rights officer)?",
+    "isMultipleChoice": false,
+    "answers": [
+      {
+        "label": "Yes",
+        "value": 1
+      },
+      {
+        "label": "No",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "type": "gov",
+    "question": "Does your company publish a CSR/Sustainability report? CSR/Sustainability report?",
+    "isMultipleChoice": false,
+    "answers": [
+      {
+        "label": "Yes, as a separate report according to the GRI (Global Reporting Initiative) Reporting Initiative) or other globally accepted standards",
+        "value": 1
+      },
+      {
+        "label": "Yes, as an integral part of the annual report, e.g. annual and sustainability report sustainability report according to GRI and other globally accepted standards",
+        "value": 0.75
+      },
+      {
+        "label": "Yes, but not according to globally accepted standards",
+        "value": 0.5
+      },
+      {
+        "label": "No",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "type": "gov",
+    "question": "Is the most recent report secured by a third party?",
+    "isMultipleChoice": false,
+    "answers": [
+      {
+        "label": "Yes, the letter of guarantee is included in the report",
+        "value": 1
+      },
+      {
+        "label": "No",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "type": "gov",
+    "question": "What human rights elements are disclosed in the report CSR/Sustainability?",
+    "isMultipleChoice": false,
+    "answers": [
+      {
+        "label": "The potential and actual human rights risks identified by our company",
+        "value": 1
+      },
+      {
+        "label": "Descriptions of existing measures that our company has already taken to address human rights risks and review the effectiveness of these measures",
+        "value": 0.75
+      },
+      {
+        "label": "Descriptions of future measures that our company plans to take to manage human rights risks",
+        "value": 0.5
+      },
+      {
+        "label": "There is no human rights risk report from our company",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "type": "gov",
+    "question": "What environmental elements are disclosed in the report CSR/Sustainability?",
+    "isMultipleChoice": false,
+    "answers": [
+      {
+        "label": "The identified environmental risks of our company",
+        "value": 1
+      },
+      {
+        "label": "Descriptions of existing measures that our company has already taken to deal with environmental risks and review the effectiveness of these measures",
+        "value": 0.75
+      },
+      {
+        "label": "Description of future measures our company plans to take to manage environmental risks",
+        "value": 0.5
+      },
+      {
+        "label": "We do not report our company's environmental risks",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "type": "gov",
+    "question": "You submit an annual report on compliance with legal due diligence obligations (e.g. the German LkSG) in the year?",
+    "isMultipleChoice": false,
+    "answers": [
+      {
+        "label": "Yes",
+        "value": 1
+      },
+      {
+        "label": "No",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "type": "gov",
+    "question": "Does your company have a code of conduct?",
+    "isMultipleChoice": false,
+    "answers": [
+      {
+        "label": "Yes",
+        "value": 1
+      },
+      {
+        "label": "No",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "type": "gov",
+    "question": "Does your company organize training for your employees on code of conduct?",
+    "isMultipleChoice": false,
+    "answers": [
+      {
+        "label": "Yes",
+        "value": 1
+      },
+      {
+        "label": "No, but we communicate the code of conduct via extranet/brochures etc.",
+        "value": 0.5
+      },
+      {
+        "label": "No",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "type": "gov",
+    "question": "Does your company have a complaint mechanism or established for this location?",
+    "isMultipleChoice": false,
+    "answers": [
+      {
+        "label": "Yes",
+        "value": 1
+      },
+      {
+        "label": "No",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "type": "gov",
+    "isMultipleChoice": true,
+    "question": "What are the characteristics of your company's complaint mechanism or complaints mechanism or procedure? Check all that apply.",
+    "answers": [
+      {
+        "label": "Indicate who is responsible for the complaints procedure, if applicable (is there a complaints body that third parties can contact directly, or via an external service provider) ",
+        "value": 1
+      },
+      {
+        "label": "The responsible person(s) entrusted by the company is (are) impartial, independent and not bound by instructions",
+        "value": 1
+      },
+      {
+        "label": "The written rules of the complaints procedure describe the ways in which a complaint can a complaint can proceed and indicate the approximate time each step may take",
+        "value": 1
+      },
+      {
+        "label": "The written rules of the complaints procedure are made publicly available in the relevant local languages in all countries where we operate",
+        "value": 1
+      },
+      {
+        "label": "The complainant receives a confirmation voucher when reporting the complaint",
+        "value": 1
+      },
+      {
+        "label": "The identity of the whistleblower is treated confidentially",
+        "value": 1
+      },
+      {
+        "label": "Commitment to non-retaliation against whistleblowers",
+        "value": 1
+      },
+      {
+        "label": "Complaints can be reported anonymously",
+        "value": 1
+      },
+      {
+        "label": "The complainant of the complaint or his/her representative is consulted during remediation/resolution",
+        "value": 1
+      },
+      {
+        "label": "Evaluation of the effectiveness of the complaints procedure at least every 12 months and on an ad hoc basis",
+        "value": 1
+      },
+      {
+        "label": "Appeal Procedure",
+        "value": 1
+      },
+      {
+        "label": "None of the above",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "type": "gov",
+    "isMultipleChoice": true,
+    "question": "What are the characteristics of your company's complaint mechanism or complaints mechanism or procedure? Check all that apply.",
+    "answers": [
+      {
+        "label": "Human Rights Complaints",
+        "value": 1
+      },
+      {
+        "label": "Environmental Complaints",
+        "value": 1
+      },
+      {
+        "label": "Unethical business practices",
+        "value": 1
+      },
+      {
+        "label": "None of the above",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "type": "gov",
+    "isMultipleChoice": true,
+    "question": "Which stakeholder groups is the grievance mechanism mechanism is available? Check all that apply",
+    "answers": [
+      {
+        "label": "Internal stakeholders (non-permanent employees/contractors, direct suppliers, service providers, etc.)",
+        "value": 1
+      },
+      {
+        "label": "External stakeholders (contractors, indirect suppliers, local communities, etc.)",
+        "value": 1
+      },
+      {
+        "label": "Other",
+        "value": 1
+      },
+      {
+        "label": "None of the above",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "type": "gov",
+    "isMultipleChoice": true,
+    "question": "How does your company optimize access to complaint procedures procedures for all stakeholder groups that are entitled to use use them? Check all that apply",
+    "answers": [
+      {
+        "label": "When conducting training",
+        "value": 1
+      },
+      {
+        "label": "By different means of communication",
+        "value": 1
+      },
+      {
+        "label": "Online",
+        "value": 1
+      },
+      {
+        "label": "Phone",
+        "value": 1
+      },
+      {
+        "label": "Email",
+        "value": 1
+      },
+      {
+        "label": "App",
+        "value": 1
+      },
+      {
+        "label": "By participating in a joint industry complaints procedure",
+        "value": 1
+      },
+      {
+        "label": "None of the above",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "type": "gov",
+    "question": "Does your company have a formal policy that addresses business ethics?",
+    "isMultipleChoice": false,
+    "answers": [
+      {
+        "label": "Yes",
+        "value": 1
+      },
+      {
+        "label": "No",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "type": "gov",
+    "isMultipleChoice": true,
+    "question": "Which of the following areas is addressed by this policy?",
+    "answers": [
+      {
+        "label": "Anti-corruption and anti-money laundering",
+        "value": 1
+      },
+      {
+        "label": "Data protection and security",
+        "value": 1
+      },
+      {
+        "label": "Information disclosure",
+        "value": 1
+      },
+      {
+        "label": "Fair Competition and Antitrust",
+        "value": 1
+      },
+      {
+        "label": "Conflicts of interest",
+        "value": 1
+      },
+      {
+        "label": "Counterfeit parts",
+        "value": 1
+      },
+      {
+        "label": "Intellectual Property",
+        "value": 1
+      },
+      {
+        "label": "Export controls and economic sanctions",
+        "value": 1
+      },
+      {
+        "label": "Reporting wrongdoing and protection against retaliation",
+        "value": 1
+      },
+      {
+        "label": "None of the above",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "type": "gov",
+    "question": "Does your company organize training for your employees on your business ethics policy?",
+    "isMultipleChoice": false,
+    "answers": [
+      {
+        "label": "Yes",
+        "value": 1
+      },
+      {
+        "label": "No",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "type": "social",
+    "question": "Does your company have a formal policy covering human rights?",
+    "isMultipleChoice": false,
+
+    "answers": [
+      {
+        "label": "Yes",
+        "value": 1
+      },
+      {
+        "label": "No",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "type": "social",
+    "isMultipleChoice": true,
+    "question": "Which of the following areas is addressed by this policy? and working conditions?",
+    "answers": [
+      {
+        "label": "Child labor and young workers",
+        "value": 1
+      },
+      {
+        "label": "Salaries and benefits",
+        "value": 1
+      },
+      {
+        "label": "Working day",
+        "value": 1
+      },
+      {
+        "label": "Modern slavery (slavery, servitude and forced or compulsory labor and human trafficking)",
+        "value": 1
+      },
+      {
+        "label": "Ethical recruitment Freedom of association and collective bargaining",
+        "value": 1
+      },
+      {
+        "label": "Non-discrimination and harassment",
+        "value": 1
+      },
+      {
+        "label": "Women's rights Diversity, equity and inclusion",
+        "value": 1
+      },
+      {
+        "label": "Minority and indigenous peoples' rights",
+        "value": 1
+      },
+      {
+        "label": "Rights to land, forest, water and compulsory eviction",
+        "value": 1
+      },
+      {
+        "label": "Use of private or public security forces",
+        "value": 1
+      },
+      {
+        "label": "No Policy",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "type": "social",
+    "question": "Does your company organize training for your employees about its human rights policy and working conditions?",
+    "isMultipleChoice": false,
+
+    "answers": [
+      {
+        "label": "Yes",
+        "value": 1
+      },
+      {
+        "label": "No, but we communicate via intranet",
+        "value": 0.5
+      },
+      {
+        "label": "No",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "type": "social",
+    "question": "Does your site have a management system in place to manage human rights issues and working conditions?",
+    "isMultipleChoice": false,
+
+    "answers": [
+      {
+        "label": "Yes, we have an internationally recognized certified management system",
+        "value": 1
+      },
+      {
+        "label": "Yes, we have a nationally recognized certified management system",
+        "value": 0.75
+      },
+      {
+        "label": "Yes, but the system is not certified",
+        "value": 0.5
+      },
+      {
+        "label": "No",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "type": "social",
+    "isMultipleChoice": false,
+    "question": "Does your company have a formal written health and safety policy in place policy in place that corresponds to local laws, industry requirements and international standards?",
+    "answers": [
+      {
+        "label": "Yes",
+        "value": 1
+      },
+      {
+        "label": "No",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "type": "social",
+    "question": "Which of the following areas is addressed by this policy?",
+    "isMultipleChoice": true,
+    "answers": [
+      {
+        "label": "Personal protection equipment ",
+        "value": 1
+      },
+      {
+        "label": "Machine Safety ",
+        "value": 1
+      },
+      {
+        "label": "Emergency Preparedness",
+        "value": 1
+      },
+      {
+        "label": "Incident and accident management",
+        "value": 1
+      },
+      {
+        "label": "Ergonomics in the workplace",
+        "value": 1
+      },
+      {
+        "label": "Handling of chemicals and/or biological substances ",
+        "value": 1
+      },
+      {
+        "label": "Fire Protection",
+        "value": 1
+      },
+      {
+        "label": "No Policy",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "type": "social",
+    "question": "Does your company organize training for your employees on your health and safety policy?",
+    "isMultipleChoice": false,
+
+    "answers": [
+      {
+        "label": "Yes",
+        "value": 1
+      },
+      {
+        "label": "No",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "type": "social",
+    "question": "Does your site have a health and safety management system in place?",
+    "isMultipleChoice": false,
+
+    "answers": [
+      {
+        "label": "Yes",
+        "value": 1
+      },
+      {
+        "label": "No",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "type": "ma",
+    "isMultipleChoice": false,
+    "question": "Does your company have a formal environmental policy, which includes a commitment to commitment to legal compliance, measurement, and continuous improvement improvements in environmental performance?",
+    "answers": [
+      {
+        "label": "Yes",
+        "value": 1
+      },
+      {
+        "label": "No",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "type": "ma",
+    "isMultipleChoice": true,
+    "question": "Which of the following areas is addressed by this policy?",
+    "answers": [
+      {
+        "label": "GHG emissions report",
+        "value": 1
+      },
+      {
+        "label": "Energy Efficiency",
+        "value": 1
+      },
+      {
+        "label": "Renewable Energy",
+        "value": 1
+      },
+      {
+        "label": "Decarbonization",
+        "value": 1
+      },
+      {
+        "label": "Water quality, consumption and management",
+        "value": 1
+      },
+      {
+        "label": "Air Quality",
+        "value": 1
+      },
+      {
+        "label": "Responsible chemical management",
+        "value": 1
+      },
+      {
+        "label": "Sustainable resource management",
+        "value": 1
+      },
+      {
+        "label": "Waste Reduction",
+        "value": 1
+      },
+      {
+        "label": "Reuse and recycling",
+        "value": 1
+      },
+      {
+        "label": "Animal Welfare",
+        "value": 1
+      },
+      {
+        "label": "Biodiversity, land use and deforestation",
+        "value": 1
+      },
+      {
+        "label": "Soil Quality",
+        "value": 1
+      },
+      {
+        "label": "Noise emissions",
+        "value": 1
+      },
+      {
+        "label": "Other areas. Specify",
+        "value": 1
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "type": "ma",
+    "isMultipleChoice": false,
+    "question": "Does your company organize training for your employees about its environmental policy?",
+    "answers": [
+      {
+        "label": "Yes",
+        "value": 1
+      },
+      {
+        "label": "No",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "type": "ma",
+    "isMultipleChoice": false,
+    "question": "Does your unit have an environmental management system in place?",
+    "answers": [
+      {
+        "label": "Yes",
+        "value": 1
+      },
+      {
+        "label": "No",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "type": "ma",
+    "isMultipleChoice": false,
+    "question": "Does your facility have an energy management system?",
+    "answers": [
+      {
+        "label": "Yes",
+        "value": 1
+      },
+      {
+        "label": "No",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "type": "ma",
+    "isMultipleChoice": false,
+    "question": "Does your company set goals to reduce greenhouse gases?",
+    "answers": [
+      {
+        "label": "Yes",
+        "value": 1
+      },
+      {
+        "label": "No",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "type": "ma",
+    "isMultipleChoice": false,
+    "question": "The targets are approved by the Science-Based Targeting Initiative Targets Initiative (SBTi)?",
+    "answers": [
+      {
+        "label": "Yes",
+        "value": 1
+      },
+      {
+        "label": "No",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "type": "ma",
+    "isMultipleChoice": false,
+    "question": "Does your company have emissions reduction targets for emissions from the upstream/upstream supply chain (scope 3)?",
+    "answers": [
+      {
+        "label": "Yes",
+        "value": 1
+      },
+      {
+        "label": "No",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "type": "ma",
+    "isMultipleChoice": false,
+    "question": "Does your unit use any substances restricted under any national or any national or international legal provisions in production, or operations?",
+    "answers": [
+      {
+        "label": "Yes",
+        "value": 1
+      },
+      {
+        "label": "No",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "type": "ma",
+    "isMultipleChoice": false,
+    "question": "Does your unit have written procedures to manage restricted substances under any regulation?",
+    "answers": [
+      {
+        "label": "Yes",
+        "value": 1
+      },
+      {
+        "label": "No",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "type": "ma",
+    "isMultipleChoice": true,
+    "question": "Which of the following areas are addressed by these procedures? Check all that apply.",
+    "answers": [
+      {
+        "label": "The manufacture of mercury-added products, the use of mercury and and mercury compounds in manufacturing processes, and the treatment treatment Reference to the Minamata Convention",
+        "value": 1
+      },
+      {
+        "label": "The production and use of persistent organic pollutants Reference to the Stockholm Convention on Persistent Organic Pollutants",
+        "value": 1
+      },
+      {
+        "label": "The handling, collection, storage and disposal of Persistent Organic Pollutants Organic Pollutants Reference to the Stockholm Convention on Persistent Organic Pollutants",
+        "value": 1
+      },
+      {
+        "label": "The Export of Hazardous Waste Reference to the Basel Convention on the Control of Transboundary Movements of Hazardous Movements of Hazardous Wastes and Their Disposal",
+        "value": 1
+      },
+      {
+        "label": "The import of hazardous and other wastes Reference to the Basel Convention on the Control of Transboundary Movements of Hazardous Movements of Hazardous Wastes and Their Disposal",
+        "value": 1
+      },
+      {
+        "label": "No",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "type": "ma",
+    "isMultipleChoice": false,
+    "question": "Does your company have a current CDP score?",
+    "answers": [
+      {
+        "label": "Yes",
+        "value": 1
+      },
+      {
+        "label": "No",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "type": "diligence",
+    "isMultipleChoice": false,
+    "question": "Has your company established CSR/sustainability requirements for suppliers?",
+    "answers": [
+      {
+        "label": "Yes",
+        "value": 1
+      },
+      {
+        "label": "No",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "type": "diligence",
+    "isMultipleChoice": true,
+    "question": "Has your company established CSR/sustainability requirements for suppliers?",
+    "answers": [
+      {
+        "label": "Child labor and young workers",
+        "value": 1
+      },
+      {
+        "label": "Salaries and benefits",
+        "value": 1
+      },
+      {
+        "label": "Working day",
+        "value": 1
+      },
+      {
+        "label": "Modern slavery (slavery, servitude and forced or compulsory labor and human trafficking)",
+        "value": 1
+      },
+      {
+        "label": "Ethical Recruitment",
+        "value": 1
+      },
+      {
+        "label": "Freedom of association and collective bargaining",
+        "value": 1
+      },
+      {
+        "label": "Non-discrimination and harassment",
+        "value": 1
+      },
+      {
+        "label": "Women's rights",
+        "value": 1
+      },
+      {
+        "label": "Diversity, equity and inclusion",
+        "value": 1
+      },
+      {
+        "label": "Minority and indigenous peoples' rights",
+        "value": 1
+      },
+      {
+        "label": "Rights to land, forest, water and compulsory eviction",
+        "value": 1
+      },
+      {
+        "label": "Use of private or public security forces",
+        "value": 1
+      },
+      {
+        "label": "Health and Safety",
+        "value": 1
+      },
+      {
+        "label": "Anti-corruption and anti-money laundering",
+        "value": 1
+      },
+      {
+        "label": "Data protection and security",
+        "value": 1
+      },
+      {
+        "label": "Financial accountability (accurate records)",
+        "value": 1
+      },
+      {
+        "label": "Information disclosure",
+        "value": 1
+      },
+      {
+        "label": "Fair Competition and Antitrust",
+        "value": 1
+      },
+      {
+        "label": "Conflicts of interest",
+        "value": 1
+      },
+      {
+        "label": "Counterfeit parts",
+        "value": 1
+      },
+      {
+        "label": "Intellectual Property",
+        "value": 1
+      },
+      {
+        "label": "Export controls and economic sanctions",
+        "value": 1
+      },
+      {
+        "label": "GHG emissions report",
+        "value": 1
+      },
+      {
+        "label": "Energy Efficiency",
+        "value": 1
+      },
+      {
+        "label": "Renewable Energy",
+        "value": 1
+      },
+      {
+        "label": "Decarbonization",
+        "value": 1
+      },
+      {
+        "label": "Water quality, consumption and management",
+        "value": 1
+      },
+      {
+        "label": "Responsible chemical management",
+        "value": 1
+      },
+      {
+        "label": "Sustainable resource management",
+        "value": 1
+      },
+      {
+        "label": "Waste Reduction",
+        "value": 1
+      },
+      {
+        "label": "Reuse and recycling",
+        "value": 1
+      },
+      {
+        "label": "Animal Welfare",
+        "value": 1
+      },
+      {
+        "label": "Biodiversity, land use and deforestation",
+        "value": 1
+      },
+      {
+        "label": "Soil Quality",
+        "value": 1
+      },
+      {
+        "label": "Noise emissions",
+        "value": 1
+      },
+      {
+        "label": "None of the above",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "type": "diligence",
+    "isMultipleChoice": true,
+    "question": "Does your company use any of the following channels to communicate your CSR/Sustainability requirements to your suppliers?",
+    "answers": [
+      {
+        "label": "Included in the terms and conditions",
+        "value": 1
+      },
+      {
+        "label": "Supplier Training",
+        "value": 1
+      },
+      {
+        "label": "Supplier Code of Conduct/Supplier Sustainability Policy",
+        "value": 1
+      },
+      {
+        "label": "Company Website/Supplier Portal",
+        "value": 1
+      },
+      {
+        "label": "No",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "type": "diligence",
+    "isMultipleChoice": false,
+    "question": "What processes does your company have in place to review whether suppliers suppliers meet your sustainability requirements?",
+    "answers": [
+      {
+        "label": "Third-party audits conducted by a certified auditing body",
+        "value": 1
+      },
+      {
+        "label": "Second party audits performed by your company",
+        "value": 0.75
+      },
+      {
+        "label": "Self-Assessment Questionnaire",
+        "value": 0.5
+      },
+      {
+        "label": "None",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "type": "diligence",
+    "isMultipleChoice": false,
+    "question": "Does your company perform sustainability risk assessment as part of its part of its due diligence activities?",
+    "answers": [
+      {
+        "label": "Yes",
+        "value": 1
+      },
+      {
+        "label": "No",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "type": "diligence",
+    "isMultipleChoice": false,
+    "question": "Are any of the following materials present in your products?",
+    "answers": [
+      {
+        "label": "Aluminum/ Bauxite",
+        "value": 0
+      },
+      {
+        "label": "Chrome",
+        "value": 0
+      },
+      {
+        "label": "Cobalt",
+        "value": 0
+      },
+      {
+        "label": "Cotton",
+        "value": 0
+      },
+      {
+        "label": "Glass",
+        "value": 0
+      },
+      {
+        "label": "Gold",
+        "value": 0
+      },
+      {
+        "label": "Graphite",
+        "value": 0
+      },
+      {
+        "label": "Leather",
+        "value": 0
+      },
+      {
+        "label": "Lithium",
+        "value": 0
+      },
+      {
+        "label": "Magnesium",
+        "value": 0
+      },
+      {
+        "label": "Manganes",
+        "value": 0
+      },
+      {
+        "label": "Mica",
+        "value": 0
+      },
+      {
+        "label": "Molybdenum",
+        "value": 0
+      },
+      {
+        "label": "Nickel",
+        "value": 0
+      },
+      {
+        "label": "Niobium",
+        "value": 0
+      },
+      {
+        "label": "Palladium",
+        "value": 0
+      },
+      {
+        "label": "Platinum",
+        "value": 0
+      },
+      {
+        "label": "Polysilicon",
+        "value": 0
+      },
+      {
+        "label": "Metals and shallow lands",
+        "value": 0
+      },
+      {
+        "label": "Rhodium",
+        "value": 0
+      },
+      {
+        "label": "Natural Rubber",
+        "value": 0
+      },
+      {
+        "label": "Steel/Iron",
+        "value": 0
+      },
+      {
+        "label": "Tantalum",
+        "value": 0
+      },
+      {
+        "label": "Estanho",
+        "value": 0
+      },
+      {
+        "label": "Tungsten",
+        "value": 0
+      },
+      {
+        "label": "Zinc",
+        "value": 0
+      },
+      {
+        "label": "None",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "type": "diligence",
+    "isMultipleChoice": false,
+    "question": "Does your company have a policy for responsible sourcing of raw materials?",
+    "answers": [
+      {
+        "label": "Yes",
+        "value": 1
+      },
+      {
+        "label": "No",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "type": "diligence",
+    "isMultipleChoice": false,
+    "question": "Which of the following materials are addressed by this policy? Check all that apply.",
+    "answers": [
+      {
+        "label": "Aluminum/ Bauxite",
+        "value": 0
+      },
+      {
+        "label": "Chrome",
+        "value": 0
+      },
+      {
+        "label": "Cobalt",
+        "value": 0
+      },
+      {
+        "label": "Cotton",
+        "value": 0
+      },
+      {
+        "label": "Glass",
+        "value": 0
+      },
+      {
+        "label": "Gold",
+        "value": 0
+      },
+      {
+        "label": "Graphite",
+        "value": 0
+      },
+      {
+        "label": "Leather",
+        "value": 0
+      },
+      {
+        "label": "Lithium",
+        "value": 0
+      },
+      {
+        "label": "Magnesium",
+        "value": 0
+      },
+      {
+        "label": "Manganes",
+        "value": 0
+      },
+      {
+        "label": "Mica",
+        "value": 0
+      },
+      {
+        "label": "Molybdenum",
+        "value": 0
+      },
+      {
+        "label": "Nickel",
+        "value": 0
+      },
+      {
+        "label": "Niobium",
+        "value": 0
+      },
+      {
+        "label": "Palladium",
+        "value": 0
+      },
+      {
+        "label": "Platinum",
+        "value": 0
+      },
+      {
+        "label": "Polysilicon",
+        "value": 0
+      },
+      {
+        "label": "Metals and shallow lands",
+        "value": 0
+      },
+      {
+        "label": "Rhodium",
+        "value": 0
+      },
+      {
+        "label": "Natural Rubber",
+        "value": 0
+      },
+      {
+        "label": "Steel/Iron",
+        "value": 0
+      },
+      {
+        "label": "Tantalum",
+        "value": 0
+      },
+      {
+        "label": "Estanho",
+        "value": 0
+      },
+      {
+        "label": "Tungsten",
+        "value": 0
+      },
+      {
+        "label": "Zinc",
+        "value": 0
+      },
+      {
+        "label": "None",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "type": "diligence",
+    "isMultipleChoice": false,
+    "question": "Does your company participate in specific raw material initiative(s)?",
+    "answers": [
+      {
+        "label": "Yes",
+        "value": 1
+      },
+      {
+        "label": "No",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "type": "diligence",
+    "isMultipleChoice": false,
+    "question": "Does your company have a Conflict Minerals Model Report (CMRT) in the scope of the company?",
+    "answers": [
+      {
+        "label": "Yes",
+        "value": 1
+      },
+      {
+        "label": "No",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "type": "diligence",
+    "isMultipleChoice": false,
+    "question": "Does your company have an Extended Minerals Reporting Template (Extended Minerals Reporting Template - EMRT) in the scope of the scope of the company?",
+    "answers": [
+      {
+        "label": "Yes",
+        "value": 1
+      },
+      {
+        "label": "No",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "type": "diligence",
+    "isMultipleChoice": false,
+    "question": "Does your company have a system for managing responsible sourcing of raw raw materials, or do you perform supply chain mapping?",
+    "answers": [
+      {
+        "label": "Yes",
+        "value": 1
+      },
+      {
+        "label": "No",
+        "value": 0
+      }
+    ]
+  }
+]

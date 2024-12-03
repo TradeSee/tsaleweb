@@ -1,0 +1,38 @@
+[
+  {
+    "id": "price_1MlOIvKu9Q5TSrXWwgtn9GdW",
+    "name": "Friend",
+    "description": "Para pessoas e empresas que querem comprar sua primeira árvore ou mais uma à sua parte da floresta.",   
+    "packagePrice": 100, 
+    "currency": "brl",   
+    "status": false,
+    "subscriptionId": null
+  },
+  {
+    "id": "price_1MlOKJKu9Q5TSrXWNUE05iAA",
+    "name": "Hero",
+    "description": "Para quem está começando a investir em restauração ambiental e quer ser amigo(a) da natureza.",
+    "packagePrice": 1000,
+    "currency": "brl",
+    "status": false,
+    "subscriptionId": null
+  },
+  {
+    "id": "price_1MlOL9Ku9Q5TSrXWLmF4C5Cp",
+    "name": "Super Hero",
+    "description": "Para quem sabe a importância de incentivar pequenos e novos plantios e quer ter uma mini floresta.",
+    "packagePrice": 5000,
+    "currency": "brl",
+    "status": true,
+    "subscriptionId": "sub_1NdIWtKu9Q5TSrXWgXzJCe7X"
+  },
+  {
+    "id": "price_1MlOLiKu9Q5TSrXWLSwFtzSd",
+    "name": "Family",
+    "description": "Para pessoas e empresas que querem ser referência no processo de restauração ambiental do Brasil.",
+    "packagePrice": 10000,
+    "currency": "brl",
+    "status": false,
+    "subscriptionId": null
+  }
+]

@@ -1,0 +1,45 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 300px; /* Ajuste a altura conforme necessário */
+    position: relative;
+  }
+  
+  .rectangle {
+    width: 100%;
+    height: 100px; /* Altura do retângulo */
+    background-color: lightgray;
+  }
+  
+  .square-container {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+  
+  .square {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .blue {
+    background-color: blue;
+  }
+  
+  .red {
+    background-color: red;
+  }
+  
+  green {
+    background-color: green;
+  }
+  
+  purple {
+    background-color: purple;
+  }
+  

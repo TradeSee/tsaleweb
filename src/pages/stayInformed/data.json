@@ -1,0 +1,30 @@
+[
+  {
+    "id": "01",
+    "Content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam tempus augue ut ligula fringilla, nec venenatis lacus posuere. Nunc lobortis enim vitae ultrices eleifend. Donec tempus suscipit velit faucibus interdum. Integer blandit tempus lobortis. Suspendisse venenatis lacus sit amet felis gravida pharetra. ivamus tempus molestie tellus. Donec in semper magna, ut bibendum velit. Ut sit amet suscipit libero, ut malesuada ligula.",
+    "published": "22 Sep 23",
+    "text": "Titulo 1",
+    "type": "MARKET COMMENTARY"
+  },
+  {
+    "id": "02",
+    "Content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam tempus augue ut ligula fringilla, nec venenatis lacus posuere. Nunc lobortis enim vitae ultrices eleifend.",
+    "published": "22 Sep 23",
+    "text": "Titulo 2",
+    "type": "ANALYSIS"
+  },
+  {
+    "id": "03",
+    "Content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam tempus augue ut ligula fringilla, nec venenatis lacus posuere. Nunc lobortis enim vitae ultrices eleifend. Donec tempus suscipit velit faucibus interdum. Integer blandit tempus lobortis. Suspendisse venenatis lacus sit amet felis gravida pharetra. ivamus tempus molestie tellus. Donec in semper magna, ut bibendum velit. Ut sit amet suscipit libero, ut malesuada ligula.",
+    "published": "22 Sep 23",
+    "text": "Titulo 3",
+    "type": "NEWS"
+  },
+  {
+    "id": "04",
+    "Content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam tempus augue ut ligula fringilla, nec venenatis lacus posuere. Nunc lobortis enim vitae ultrices eleifend.",
+    "published": "22 Sep 23",
+    "text": "Titulo 4",
+    "type": "Type4"
+  }
+]

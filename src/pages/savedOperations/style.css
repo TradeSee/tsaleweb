@@ -1,0 +1,71 @@
+.card-saved {
+    width: 190px;
+    height: 254px;
+    position: relative;
+    border-radius: 16px;
+    background: #f5f5f5;
+    transition: box-shadow .3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    overflow: hidden;
+    cursor: pointer;
+  }
+  
+  .card-img-saved {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: #e9edf8;
+  }
+  
+  .card-info-saved {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    padding: 1rem;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+  }
+  
+  .card-icon-saved {
+    opacity: 0;
+    transform: translateX(-20%);
+    width: 2em;
+    height: 2em;
+    transition: all .3s ease-in-out;
+    margin-right: 20px;
+  }
+  
+  .icon-saved {
+    --size: 20px;
+    width: var(--size);
+    height: var(--size);
+  }
+  
+  /*Text*/
+  .card-text-saved p {
+    line-height: 140%;
+   /*Delete this line for multi-line text*/
+    white-space: nowrap;
+  }
+  
+  .text-title-saved {
+    font-weight: 900;
+    font-size: 1.2rem;
+    color: #222;
+  }
+  
+  .text-subtitle-saved {
+    color: #333;
+    font-weight: 500;
+    font-size: 1rem;
+  }
+  
+  /*Hover*/
+  .card-saved:hover {
+    box-shadow: 0 10px 20px 4px rgba(35, 35, 35, .1);
+  }
+  
+  .card-saved:hover .card-icon-saved {
+    opacity: 1;
+    transform: translateX(20%);
+  }
