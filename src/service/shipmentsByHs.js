@@ -1,5 +1,4 @@
 import axios from "axios";
-import { APITSALE_KEY } from "./key";
 
 export default function ShipmentsCompanyHS(
   hsCodes,
@@ -17,7 +16,7 @@ export default function ShipmentsCompanyHS(
 
     const header = {
       headers: {
-        Authorization: "Bearer " + APITSALE_KEY.key,
+        Authorization: "Bearer ",
         "Content-Type": "application/json",
         "Access-Control-Allow-Origin": "*",
       },

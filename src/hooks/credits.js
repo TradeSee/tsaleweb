@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
 import { database } from "../database/config";
-import { cipherCKey } from "../service/key/index";
 import CryptoJS from "crypto-js";
 import { getHistoryCredits } from "./getUsers";
 
@@ -106,12 +105,12 @@ export async function viewCredit(userId) {
   if (typeof creditsValue === "number") {
     const encryptedCredits = CryptoJS.AES.encrypt(
       creditsValue.toString(),
-      cipherCKey.key
+      1
     ).toString();
     creditsValue = encryptedCredits;
     await userRef.update({ Credits: encryptedCredits });
   } else if (typeof creditsValue === "string") {
-    let decryptedCredit = decryptCredits(creditsValue, cipherCKey.key);
+    let decryptedCredit = decryptCredits(creditsValue, 1);
     if (decryptedCredit < 0) {
       decryptedCredit = 0;
       return decryptedCredit;
@@ -129,12 +128,10 @@ export async function viewPlanMonthly(userId) {
   const snapshot = await userRef.child("planMonthly").once("value");
   let planValue = snapshot.val();
 
-  if(planValue) {
-    return planValue
+  if (planValue) {
+    return planValue;
   }
   return 0;
-
-
 }
 export async function viewAddMonthly(userId) {
   const userRef = database.ref("Users").child(userId);
@@ -142,17 +139,16 @@ export async function viewAddMonthly(userId) {
   const snapshot = await userRef.child("addMonthly").once("value");
   let planValue = snapshot.val();
 
-  if(planValue) {
-    return planValue
+  if (planValue) {
+    return planValue;
   }
   return 0;
-
 }
 
 export async function registerPlan(userId, credits) {
   try {
     database.ref("Users").child(userId).update({
-      planMonthly: credits
+      planMonthly: credits,
     });
   } catch (error) {
     console.error("Error register plan:", error);
@@ -161,7 +157,7 @@ export async function registerPlan(userId, credits) {
 export async function registerAdd(userId, credits) {
   try {
     database.ref("Users").child(userId).update({
-      addMonthly: credits
+      addMonthly: credits,
     });
   } catch (error) {
     console.error("Error register plan:", error);
@@ -175,17 +171,14 @@ export async function addCredit(userId, credits) {
     const snapshot = await userRef.child("Credits").once("value");
     const encryptedCredits = snapshot.val();
 
-    const decryptedCredits = decryptCredits(encryptedCredits, cipherCKey.key);
+    const decryptedCredits = decryptCredits(encryptedCredits, 1);
 
     // converter credits para número e somar ao valor atual de "Credits"
     const creditsToAdd = parseFloat(credits);
     const newCredits = decryptedCredits + creditsToAdd;
 
     // criptografar o novo valor de "Credits"
-    let cipher = CryptoJS.AES.encrypt(
-      newCredits.toString(),
-      cipherCKey.key
-    ).toString();
+    let cipher = CryptoJS.AES.encrypt(newCredits.toString(), 1).toString();
     // atualizar o valor do campo "Credits"
     await userRef.update({ Credits: cipher });
   } catch (error) {
@@ -201,17 +194,14 @@ export async function deleteCredit(userId, data) {
     const encryptedCredits = snapshot.val();
 
     // descriptografar o valor de "Credits"
-    const decryptedCredits = decryptCredits(encryptedCredits, cipherCKey.key);
+    const decryptedCredits = decryptCredits(encryptedCredits, 1);
 
     // subtrair o valor desejado do valor atual de "Credits"
     const creditsToSubtract = parseFloat(data);
     const newCredits = decryptedCredits - creditsToSubtract;
 
     // criptografar o novo valor de "Credits"
-    let cipher = CryptoJS.AES.encrypt(
-      newCredits.toString(),
-      cipherCKey.key
-    ).toString();
+    let cipher = CryptoJS.AES.encrypt(newCredits.toString(), 1).toString();
 
     // atualizar o valor do campo "Credits"
     await userRef.update({ Credits: cipher });

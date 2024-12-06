@@ -23,7 +23,6 @@ import {
 } from "../../../assets/styles";
 import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
 import ButtonBlue from "../../../components/myButton";
-import { InRow } from "../../compliance/search/style";
 import SancIcon from "../../../icons/Sanctions.png";
 import { getSanction } from "../../../hooks/sanction";
 
@@ -174,34 +173,32 @@ export default function ModalCompliance({ visible, onCancel, userId }) {
             </>
           ) : step === 1 ? (
             <>
-              <InRow>
-                <button
-                  className="cursor-pointer duration-200 hover:scale-125 active:scale-100"
-                  title="Go Back"
-                  style={{
-                    backgroundColor: "transparent",
-                    borderWidth: 0,
-                  }}
-                  onClick={() => moveStepAnimation("back", step - 1)}
+              <button
+                className="cursor-pointer duration-200 hover:scale-125 active:scale-100"
+                title="Go Back"
+                style={{
+                  backgroundColor: "transparent",
+                  borderWidth: 0,
+                }}
+                onClick={() => moveStepAnimation("back", step - 1)}
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="50px"
+                  height="50px"
+                  viewBox="0 0 24 24"
+                  className="stroke-blue-300"
                 >
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="50px"
-                    height="50px"
-                    viewBox="0 0 24 24"
-                    className="stroke-blue-300"
-                  >
-                    <path
-                      strokeLinejoin="round"
-                      strokeLinecap="round"
-                      strokeWidth="1.5"
-                      d="M11 6L5 12M5 12L11 18M5 12H19"
-                    ></path>
-                  </svg>
-                </button>
-                <h1>Sanctions</h1>
-              </InRow>
-             
+                  <path
+                    strokeLinejoin="round"
+                    strokeLinecap="round"
+                    strokeWidth="1.5"
+                    d="M11 6L5 12M5 12L11 18M5 12H19"
+                  ></path>
+                </svg>
+              </button>
+              <h1>Sanctions</h1>
+
               <List
                 sx={{
                   width: "100%",
@@ -211,7 +208,7 @@ export default function ModalCompliance({ visible, onCancel, userId }) {
               >
                 {Object.values(sanction).map((item) => {
                   const value = item;
-                  const { listName  } = item;
+                  const { listName } = item;
                   return (
                     <ListItem
                       key={value}
@@ -241,8 +238,7 @@ export default function ModalCompliance({ visible, onCancel, userId }) {
                           <ListItemText
                             primary={
                               <span>
-                                <strong>Sanctioning List:</strong>{" "}
-                                {listName} -                              
+                                <strong>Sanctioning List:</strong> {listName} -
                               </span>
                             }
                           />
@@ -255,33 +251,32 @@ export default function ModalCompliance({ visible, onCancel, userId }) {
             </>
           ) : step === 2 ? (
             <>
-              <InRow>
-                <button
-                  className="cursor-pointer duration-200 hover:scale-125 active:scale-100"
-                  title="Go Back"
-                  style={{
-                    backgroundColor: "transparent",
-                    borderWidth: 0,
-                  }}
-                  onClick={() => moveStepAnimation("back", step - 2)}
+              <button
+                className="cursor-pointer duration-200 hover:scale-125 active:scale-100"
+                title="Go Back"
+                style={{
+                  backgroundColor: "transparent",
+                  borderWidth: 0,
+                }}
+                onClick={() => moveStepAnimation("back", step - 2)}
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="50px"
+                  height="50px"
+                  viewBox="0 0 24 24"
+                  className="stroke-blue-300"
                 >
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="50px"
-                    height="50px"
-                    viewBox="0 0 24 24"
-                    className="stroke-blue-300"
-                  >
-                    <path
-                      strokeLinejoin="round"
-                      strokeLinecap="round"
-                      strokeWidth="1.5"
-                      d="M11 6L5 12M5 12L11 18M5 12H19"
-                    ></path>
-                  </svg>
-                </button>
-                <h1>Compliance</h1>
-              </InRow>
+                  <path
+                    strokeLinejoin="round"
+                    strokeLinecap="round"
+                    strokeWidth="1.5"
+                    d="M11 6L5 12M5 12L11 18M5 12H19"
+                  ></path>
+                </svg>
+              </button>
+              <h1>Compliance</h1>
+
               <List
                 sx={{
                   width: "100%",
@@ -291,7 +286,8 @@ export default function ModalCompliance({ visible, onCancel, userId }) {
               >
                 {Object.values(compliance).map((item) => {
                   const value = item;
-                  const { countryOfExport, countryOfImport, derivedReference } = item;
+                  const { countryOfExport, countryOfImport, derivedReference } =
+                    item;
                   return (
                     <ListItem
                       key={value}
@@ -322,9 +318,9 @@ export default function ModalCompliance({ visible, onCancel, userId }) {
                             primary={
                               <span>
                                 <strong>Derived Reference:</strong>{" "}
-                                {derivedReference} | 
+                                {derivedReference} |
                                 <strong> Country of Export:</strong>{" "}
-                                {countryOfExport} | 
+                                {countryOfExport} |
                                 <strong> Country of Import:</strong>{" "}
                                 {countryOfImport}
                               </span>

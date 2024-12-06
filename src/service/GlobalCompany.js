@@ -1,5 +1,4 @@
 import axios from "axios";
-import { APITSALE_KEY } from "./key";
 import { saveControlRequests } from "../hooks/controlRequets";
 import { format } from "date-fns";
 
@@ -54,7 +53,7 @@ export default function GlobalCompany(
 
     const header = {
       headers: {
-        Authorization: "Bearer " + APITSALE_KEY.key,
+        Authorization: "Bearer ",
         "Content-Type": "application/json",
         "Access-Control-Allow-Origin": "*",
       },

@@ -1,5 +1,4 @@
 import axios from "axios";
-import { APITSALE_KEY } from "./key";
 
 export default function ProfileCompany(
   id,
@@ -23,18 +22,14 @@ export default function ProfileCompany(
 
     const header = {
       headers: {
-        Authorization: "Bearer " + APITSALE_KEY.key,
+        Authorization: "Bearer ",
         "Content-Type": "application/json",
         "Access-Control-Allow-Origin": "*",
       },
     };
 
     axios
-      .post(
-        "https://apit-api/v1/fullDataCompanies",
-        body,
-        header
-      )
+      .post("https://apit-api/v1/fullDataCompanies", body, header)
       .then((response) => {
         resolve(response.data);
       })

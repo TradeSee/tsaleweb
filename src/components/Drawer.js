@@ -40,7 +40,15 @@ import LogoutIcon from "../icons/logout-red.png";
 import BillingIcon from "../icons/credit-card.png";
 import { authScreen, logout } from "../contexts/auth";
 import getUserInfo from "../hooks/getUsers";
-import { addCredit, deleteCredit, registerAdd, registerPlan, viewAddMonthly, viewCredit, viewPlanMonthly } from "../hooks/credits";
+import {
+  addCredit,
+  deleteCredit,
+  registerAdd,
+  registerPlan,
+  viewAddMonthly,
+  viewCredit,
+  viewPlanMonthly,
+} from "../hooks/credits";
 import iconLogo from "../icons/T-SaleMetals-03.png";
 import ResponsiveMapping from "./ResponsiveMapping";
 import useAnimatedUnmount from "../hooks/useAnimatedUnmount";
@@ -126,34 +134,28 @@ export default function Drawer({ handleToggle, initState, isFixed }) {
           const userPlan = await viewPlanMonthly(userInfo?.uid);
           const userAdd = await viewAddMonthly(userInfo?.uid);
 
-          console.log("Saldo")
-          console.log(userCredits)
-          console.log("Plano")
-          console.log(userPlan)          
+          console.log("Saldo");
+          console.log(userCredits);
+          console.log("Plano");
+          console.log(userPlan);
 
-          if(userPlan+userCredits >= userCredits) {
-            let percent = (userCredits/(userPlan+userAdd))*100
-            let usagePercent = 100-percent
-            setIsUsage(parseInt(usagePercent))
+          if (userPlan + userCredits >= userCredits) {
+            let percent = (userCredits / (userPlan + userAdd)) * 100;
+            let usagePercent = 100 - percent;
+            setIsUsage(parseInt(usagePercent));
           } else {
+            if (userCredits > 650) {
+              await deleteCredit(userInfo?.uid, userCredits);
+              await addCredit(userInfo?.uid, 620);
 
-            if(userCredits > 650) {
-
-              await deleteCredit(userInfo?.uid, userCredits)
-              await addCredit(userInfo?.uid, 620)
-    
               //migração de sistema de consumo
-              await registerPlan(userInfo?.uid, 600)  
-              await registerAdd(userInfo?.uid, 20)
-            } else {              
-    
+              await registerPlan(userInfo?.uid, 600);
+              await registerAdd(userInfo?.uid, 20);
+            } else {
               //migração de sistema de consumo
-              await registerPlan(userInfo?.uid, 100)  
-              await registerAdd(userInfo?.uid, 0)
+              await registerPlan(userInfo?.uid, 100);
+              await registerAdd(userInfo?.uid, 0);
             }
-
-
-            
           }
 
           setCredits(userCredits);
@@ -308,10 +310,10 @@ export default function Drawer({ handleToggle, initState, isFixed }) {
                 textAlign: "center",
                 width: "85%",
                 lineHeight: 1.3,
-                marginBottom: 10
+                marginBottom: 10,
               }}
             >
-             Use credits to access tools and information.
+              Use credits to access tools and information.
             </TxtBalance>
             <BalanceDrawer className="balanceEffect" onClick={blurAndUpdate}>
               <ColumnContainer
@@ -321,10 +323,9 @@ export default function Drawer({ handleToggle, initState, isFixed }) {
                   marginLeft: 13,
                 }}
               >
-              <RowContainer style={{width: '100%'}}>
-                <Consumption usage={isUsage}/>
-              </RowContainer>
-
+                <RowContainer style={{ width: "100%" }}>
+                  <Consumption usage={isUsage} />
+                </RowContainer>
               </ColumnContainer>
             </BalanceDrawer>
           </WalletDrawer>

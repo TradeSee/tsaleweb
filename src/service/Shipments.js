@@ -1,5 +1,4 @@
 import axios from "axios";
-import { APITSALE_KEY } from "./key";
 
 export default function ShipmentsCompany(shipName, country, role) {
   return new Promise((resolve, reject) => {
@@ -11,7 +10,7 @@ export default function ShipmentsCompany(shipName, country, role) {
 
     const header = {
       headers: {
-        Authorization: "Bearer " + APITSALE_KEY.key,
+        Authorization: "Bearer ",
         "Content-Type": "application/json",
         "Access-Control-Allow-Origin": "*",
       },

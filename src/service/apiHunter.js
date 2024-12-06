@@ -1,5 +1,4 @@
 import axios from "axios";
-import { APITSALE_KEY } from "./key";
 
 export function getAllDataHunter(companyId, domain, limit) {
   return new Promise((resolve, reject) => {
@@ -11,24 +10,19 @@ export function getAllDataHunter(companyId, domain, limit) {
     body.limit = limit;
     const payload = JSON.stringify(body);
 
-
-    console.log("companyId", body)
-    console.log("payload", payload)
+    console.log("companyId", body);
+    console.log("payload", payload);
 
     const header = {
       headers: {
-        Authorization: "Bearer " + APITSALE_KEY.key,
+        Authorization: "Bearer ",
         "Content-Type": "application/json",
         "Access-Control-Allow-Origin": "*",
       },
     };
 
     axios
-      .post(
-        "https://apit-api/v1/hunter-all-data",
-        payload,
-        header
-      )
+      .post("https://apit-api/v1/hunter-all-data", payload, header)
       .then((response) => {
         resolve(response.data);
       })
@@ -91,7 +85,14 @@ export function finderLinkSecond(companyName, country) {
   });
 }
 
-export function HunterGetEmail(domain, first_name, last_name, user, userId, userIp) {
+export function HunterGetEmail(
+  domain,
+  first_name,
+  last_name,
+  user,
+  userId,
+  userIp
+) {
   return new Promise((resolve, reject) => {
     const body = JSON.stringify({
       domain,
@@ -99,23 +100,19 @@ export function HunterGetEmail(domain, first_name, last_name, user, userId, user
       last_name,
       user,
       userId,
-      userIp
+      userIp,
     });
 
     const header = {
       headers: {
-        Authorization: "Bearer " + APITSALE_KEY.key,
+        Authorization: "Bearer ",
         "Content-Type": "application/json",
         "Access-Control-Allow-Origin": "*",
       },
     };
 
     axios
-      .post(
-        "https://apit-api/v1/hunter-email-data",
-        body,
-        header
-      )
+      .post("https://apit-api/v1/hunter-email-data", body, header)
       .then((response) => {
         resolve(response.data);
       })

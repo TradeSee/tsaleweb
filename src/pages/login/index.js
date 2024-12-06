@@ -35,33 +35,8 @@ function Login() {
   const navigate = useNavigate();
 
   const handleClick = () => {
-    if (email && pass) {
-      signIn(email, pass)
-        .then((msg) => {
-          navigate("/home");
-        })
-        .catch((err) => {
-          console.log(err);
-          setErrorLogin("erroStep1");
-          setTimeout(() => {
-            setErrorLogin("erroStep2");
-          }, 5000);
-        });
-    } else {
-      setErrorLogin("erroStep1");
-      setTimeout(() => {
-        setErrorLogin("erroStep2");
-      }, 5000);
-    }
+    console.log("login");
   };
-
-  useEffect(() => {
-    authScreen().then((res) => {
-      if (res) {
-        navigate("/home");
-      }
-    });
-  });
 
   return (
     <ContainerWithMap>

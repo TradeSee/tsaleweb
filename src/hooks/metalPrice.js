@@ -1,6 +1,5 @@
 import { message } from "antd";
 import { database } from "../database/config";
-import { cipherCKey } from "../service/key/index";
 import CryptoJS from "crypto-js";
 
 export async function getMetalPrice() {
@@ -112,7 +111,7 @@ export async function createCompareList(userId, listName, data) {
     // criando a lista
     const listId = CryptoJS.AES.encrypt(
       `${listName}${formattedDate}`,
-      cipherCKey.key
+      1
     ).toString();
 
     await userRef.child(listName).set({
@@ -217,8 +216,8 @@ export async function deleteCompareList(userId, listId) {
   try {
     const userRef = database.ref(`Users/${userId}/CompareList`);
     const listToDelete = userRef.child(listId);
-    
-    const snapshot = await listToDelete.once('value');
+
+    const snapshot = await listToDelete.once("value");
     if (!snapshot.exists()) {
       console.warn(`List not found.`);
       return false;
